@@ -1,0 +1,58 @@
+<style>
+    h3 {
+        color: rgb(194, 10, 10);
+        font-size: 25px;
+    }
+    
+    body {
+        background-color: rgb(240, 212, 212)
+    }
+    
+    label {
+        margin: 15px;
+    }
+    
+    input {
+        margin-left: 15px;
+        border-radius: 30px;
+    }
+    
+    #submit:hover {
+        font-size: larger;
+        background-color: rgb(226, 136, 238);
+    }
+    
+    #xd {
+        padding-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+    <h3>Form đăng kí thông tin</h3>
+    <form action="Đăng kí">
+        <label for="Tên"> HỌ VÀ TÊN </label><br>
+        <input type="text" id="name" name="Tên"><br>
+        <label for="EMAIL">EMAIL</label><br>
+        <input type="email" id="Email"><br>
+        <div style="display: flex; align-items: center;">
+            <label for="gender">GIỚI TÍNH</label><br>
+            <input type="radio" name="gender" value="female"><br>
+            <label for="Nữ">Nam</label>
+            <input type="radio" name="gender" value="male">
+            <label for="Nam">Nữ</label><br><br>
+        </div>
+        <div>
+            <label for="số điện thoại">Số điện thoại</label><br>
+            <input type="text" id="số điện thoại" name="Tên"><br>
+        </div>
+        <div id="xd">
+            <input type="submit" id="submit" name="Gửi">
+        </div>
+    </form>
+</body>
+
+</html>
+</body>
+
+</html>
