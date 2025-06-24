@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thư viện ảnh - 3 ảnh mỗi hàng</title>
-  <style>
-    body {
-      background-color: #f7f7f7;
-      padding: 20px;
-      font-family: Arial, sans-serif;
-    }
-
-    .space {
-      display: grid;
-      gap: 15px;
-      justify-items: center;
-    }
-
-    img {
-      width: 150px;
-      height: 150px;
-      border-radius: 10px;
-      border: 5px solid rgb(211, 103, 192);
-      object-fit: cover;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+    <style>
+        body {
+      background-color: #dea6e4;
+      padding: 20px;
+    }
+        h1 {
+      text-align: center;
+      color: #090909;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+        .space1 img , .space2 img{
+            display: flex;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            border: 5px solid rgb(211, 103, 192);
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .space1 , .space2{
+
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+    </style>
 <body>
-
-  <div class="space">
-    <img src="https://i.ex-cdn.com/phatgiao.org.vn/files/content/2023/11/30/gioi-thieu-canh-song-nuoc-nui-non-2009.jpg" alt="Ảnh 1">
-    <img src="https://cafefcdn.com/203337114487263232/2024/7/30/non-nuoc-cao-bang-1722313726344-17223137265861602862684.jpeg" alt="Ảnh 2">
-    <img src="https://youpuve.com/wp-content/uploads/2021/07/Kham-pha-canh-dep-nui-non-hung-vi-tren-dat-Cao-Bang-1024x683.jpg" alt="Ảnh 3">
-    <img src="https://kimlientravel.com.vn/upload/image/image-20231107150049-1.jpeg" alt="Ảnh 4">
-    <img src="https://pystravel.vn/_next/image?url=https%3A%2F%2Fbooking.pystravel.vn%2Fuploads%2Fposts%2Falbums%2F40%2F11fb660111f5e4956a90738c8dc18424.jpg&w=1920&q=75" alt="Ảnh 5">
-    <img src="https://media.travel.com.vn/Tour/tfd__2_10136_thacbangioc4.webp" alt="Ảnh 6">
-  </div>
-
+    <h1> Thư viện danh lam thắng cảnh ở Việt Nam</h1>
+    <div class="space1">
+        <img src="https://i.ex-cdn.com/phatgiao.org.vn/files/content/2023/11/30/gioi-thieu-canh-song-nuoc-nui-non-2009.jpg" weight="1px" height="130px"  alt="">
+        <img src="https://cafefcdn.com/203337114487263232/2024/7/30/non-nuoc-cao-bang-1722313726344-17223137265861602862684.jpeg" weight="150px" height="150px" alt="">
+        <img src="https://youpuve.com/wp-content/uploads/2021/07/Kham-pha-canh-dep-nui-non-hung-vi-tren-dat-Cao-Bang-1024x683.jpg" weight="150px" height="150px" alt="">
+    </div>
+    <div class="space2">
+        <img src="https://kimlientravel.com.vn/upload/image/image-20231107150049-1.jpeg" weight="150px" height="150px" alt="">
+        <img src="https://pystravel.vn/_next/image?url=https%3A%2F%2Fbooking.pystravel.vn%2Fuploads%2Fposts%2Falbums%2F40%2F11fb660111f5e4956a90738c8dc18424.jpg&w=1920&q=75" weight="150px" height="150px" alt="">
+        <img src="https://media.travel.com.vn/Tour/tfd__2_10136_thacbangioc4.webp" weight="150px" height="150px" alt="">
+    </div>
 </body>
 </html>
